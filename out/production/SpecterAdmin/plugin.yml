@@ -1,0 +1,8 @@
+name: SpecterAdmin
+main: me.lukedluz.SpecterAdmin.Main
+version: 1.0
+author: lukedluz
+website: https://specterplugins.com
+commands:
+  admin:
+  setadmin:

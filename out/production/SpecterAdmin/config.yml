@@ -1,0 +1,43 @@
+#  _____ _____  ______ _____ _______ ______ _____            _____  __  __ _____ _   _
+# / ____|  __ \|  ____/ ____|__   __|  ____|  __ \     /\   |  __ \|  \/  |_   _| \ | |
+#| (___ | |__) | |__ | |       | |  | |__  | |__) |   /  \  | |  | | \  / | | | |  \| |
+# \___ \|  ___/|  __|| |       | |  |  __| |  _  /   / /\ \ | |  | | |\/| | | | | . ` |
+# ____) | |    | |___| |____   | |  | |____| | \ \  / ____ \| |__| | |  | |_| |_| |\  |
+#|_____/|_|    |______\_____|  |_|  |______|_|  \_\/_/    \_\_____/|_|  |_|_____|_| \_|
+#
+# Desenvolvedor: Lucas L.
+# Discord: lukedluz#8795
+# Versão: 1.0
+# Site: https://specterplugins.com
+#
+
+
+Mensagens:
+  AdminOn: '&aModo admin ativado.' #Mensagem ao ativar o modo admin.
+  AdminOff: '&cModo admin desativado.' #Mensagem ao desativar o modo admin.
+  SemPermissao: '&cSem Permissão.' #Mensagem se não tiver permissão de usar o comando /admin.
+  SemPermissao2: '&cSem Permissão.' #Mensagem se não tiver permissão de usar o comando /setadmin.
+  DeslogouJail: '&cDeslogou em modo screenshare.' #Mensagem ao deslogar durante a jail.
+
+Permissoes:
+  Admin: 'Specter.Admin'
+  SetAdmin: 'Specter.SetAdmin'
+
+Comandos:
+  Admin: 'adm' #Alias para o comando /admin
+  SetAdmin: 'setadm' #Alias para o comando /setadmin
+
+Menu:
+  Nome: '&b&lSPECTERPLUGINS' #Nome do menu
+  Linhas: 4 #Quantidade de linhas que quer que o menu tenha.
+  Prender: '&cPRENDER' #Nome no menu para prender o player.
+  Espectador: '&cESPECTADOR' #Nome no menu para mudar seu modo de jogo para o modo espectador.
+  Info: '&cINFORMAÇÕES' #Nome no menu para ver informações do jogador.
+  VerJail: '&cVER JAILS' #Nome no menu para ver jogadores na jail.
+  TrocaRapida: '&cTROCA RÁPIDA' #Nome no menu para troca rápida.
+
+Erros:
+  Teleporte: '&cNão pode teleportar na jail.' #Mensagem enviada ao tentar teleportar na jail.
+  Comandos: '&cNão pode usar comandos na jail.' #Mensagem enviada ao tentar usar comandos na jail.
+
+Jails: {}
